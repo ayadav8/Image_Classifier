@@ -36,6 +36,7 @@ or
 conda install numpy pandas matplotlib pil
 ```
 Follow [PyTorch](https://pytorch.org/get-started/locally/) to get updated pip command
+* Checkout [torchvision](https://pytorch.org/docs/stable/torchvision/models.html) for details on pre-trained model
 
 # Command Line Application
 Train a new network on a data set with ```train.py```
