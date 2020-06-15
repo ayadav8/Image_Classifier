@@ -24,7 +24,7 @@ def get_input_args():
     parser.add_argument('--epocs', type = str, default = 1, help = 'number of epocs' )
     parser.add_argument('--save_dir', type = str, default = 'checkpoint.pth', help = 'path to save the model' )
     parser.add_argument('--path_image', type = str, default = './flowers/test/102/', help = 'path to the image for inference' )
-    parser.add_argument('--top_prb', type = str, default = 5, help = 'top probabilities to show' )
+    parser.add_argument('--top_prb', type = int, default = 5, help = 'top probabilities to show' )
     
     # Replace None with parser.parse_args() parsed argument collection that 
     # you created with this function 
